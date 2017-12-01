@@ -9,6 +9,8 @@ const ListItem = require('./components/ListItem');
 const styles = require('./styles.js')
 import prompt from 'react-native-prompt-android';
 
+console.ignoredYellowBox = ['Setting a timer'];
+
 const {
   AppRegistry,
   ListView,
